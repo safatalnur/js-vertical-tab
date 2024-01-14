@@ -1,3 +1,47 @@
 .heading {
   text-align: center;
 }
+
+.vertical-tab {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-tab__list {
+  background-color: #f1f1f1;
+  border-right: 1px solid grey;
+  width: 20%;
+}
+
+.vertical-tab__city {
+  margin: 0px;
+  padding: 20px;
+}
+
+.vertical-tab__city:hover {
+  background-color: #ccc;
+}
+
+.vertical-tab__city--active {
+  background-color: #5a5a5a;
+  display: block;
+}
+
+.vertical-tab__content {
+  width: 80%;
+}
+
+.vertical-tab__desc {
+  display: none;
+  margin: 0px;
+  padding: 20px;
+}
+
+.vertical-tab__desc--active {
+  display: block;
+}
+
+.vertical-tab__heading {
+  margin: 0;
+}
